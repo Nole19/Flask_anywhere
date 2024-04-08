@@ -15,7 +15,7 @@ def github_deploy():
         try:
             # Pull the latest changes from the GitHub repository
             # Replace '/home/yourusername/yourrepository' with the actual path to your repository on PythonAnywhere
-            subprocess.run(['git', '-C', '/home/yourusername/yourrepository', 'pull'], check=True)
+            subprocess.run(['git', '-C', '/home/nole19/Flask_anywhere', 'pull'], check=True)
             # Return a success message
             return 'Updated code successfully', 200
         except subprocess.CalledProcessError as e:
